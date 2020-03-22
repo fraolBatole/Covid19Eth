@@ -5,7 +5,7 @@ import re
 # from visualReports import *
 
 def main():
-    updater = Updater('1112576163:AAHF1zmbu2Z6oTqJ6lBsVaVeqTIsfECFDcU')
+    updater = Updater('YOUR TOKEN')
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start',start))
     dp.add_handler(CallbackQueryHandler(covidReport, pattern='m1'))
