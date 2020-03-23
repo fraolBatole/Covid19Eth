@@ -82,10 +82,10 @@ def connectExpert(bot, update):
 def positiveSymptoms(username):
     try:
         dbConn = mysql.connector.connect(
-            host="46.101.151.49", 
-            user = "covid19",
-            passwd = "Fraol2019@mCovid19!eth",
-            database = "covid19ETH")
+            host="", 
+            user = "",
+            passwd = "",
+            database = "")
         
         cursor = dbConn.cursor()
 
@@ -105,10 +105,10 @@ def positiveSymptoms(username):
 def insertIntoUserReport(first_name,username,chat_id):
     try:
         dbConn = mysql.connector.connect(
-            host="46.101.151.49", 
-            user = "covid19",
-            passwd = "Fraol2019@mCovid19!eth",
-            database = "covid19ETH")
+            host="", 
+            user = "",
+            passwd = "",
+            database = "")
         
         cursor = dbConn.cursor()
 
